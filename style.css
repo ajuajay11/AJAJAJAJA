@@ -1,0 +1,121 @@
+* {
+  font-family: "Akaya Kanadaka", cursive;
+}
+.flex {
+  display: flex;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(34deg, #05e8fe, 50%, #ea01fc);
+}
+#answer {
+  font-family: "Akaya Kanadaka";
+  font-size: 25px;
+}
+#cont {
+  background-color: #fdfeff;
+  height: 70%;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 10px 10px 21px -7px;
+}
+
+#form {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftsec {
+  flex-basis: 50%;
+  height: 100%;
+}
+.rightsec {
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    127deg,
+    #41b5fb,
+    #666afb,
+    #be5ad5,
+    #d200f4,
+    #ff0270
+  );
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 5px 5px 0;
+}
+.rightsec h1 {
+  font-family: "Akaya Kanadaka";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+#button {
+  width: 50%;
+  height: 8%;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    127deg,
+    #41b5fb,
+    #666afb,
+    #be5ad5,
+    #d200f4,
+    #ff0270
+  );
+  transition: 0.6s;
+}
+#button:hover {
+  box-shadow: rgb(0 0 0) 4px 4px 11px -3px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+.inputcont {
+  width: 100%;
+  text-align: center;
+}
+input {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-size: 30px;
+}
+.blue {
+  background-color: blue !important;
+  background-image: none !important;
+}
+
+.red {
+  background-color: red !important;
+  background-image: none !important;
+}
+
+.green {
+  background-color: green !important;
+  background-image: none !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+  background-image: none !important;
+}
+
+.dark {
+  background-color: black !important;
+  background-image: none !important;
+}
+
+.pink {
+  background-color: pink !important;
+  background-image: none !important;
+}

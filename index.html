@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aj and ps</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flames Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main" class="flex">
+      <div id="cont" class="flex">
+        <div class="leftsec flex">
+          <form id="form" class="flex">
+            <div class="inputcont m-t-40">
+              <input
+                id="firstName"
+                type="text"
+                placeholder="Your Name"
+                autocomplete="off"
+              />
+            </div>
+            <div class="inputcont">
+              <input
+                id="secondName"
+                type="text"
+                placeholder="Your Crush Name"
+                autocomplete="off"
+              />
+            </div>
+            <div id="answer"></div>
+            <button id="button" type="button">Flames</button>
+          </form>
+        </div>
+        <div class="rightsec flex">
+          <h1>want to know ur relationship status</h1>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
 </html>
